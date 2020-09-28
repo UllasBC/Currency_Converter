@@ -1,0 +1,13 @@
+.widget-wrapper {
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid #d3d3d3;
+    align-items: center;
+  }
+
+
+  .widget-input{
+      margin-bottom: 20px;
+  }
