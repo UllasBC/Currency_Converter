@@ -1,7 +1,7 @@
 import React from "react";
 import { CurrencyTypes } from "../../constants";
 import PropsTypes from "prop-types";
-import './index.css';
+import "./index.css";
 
 export const CurrencyWidget = (props) => {
   return (
@@ -17,7 +17,7 @@ export const CurrencyWidget = (props) => {
       />
       <select onChange={props.onCurrencyTypeChange}>
         {CurrencyTypes.map((type, index) => (
-          <option value={type}>{type}</option>
+          <option value={type} key={index}>{type}</option>
         ))}
       </select>
     </div>
